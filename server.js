@@ -48,6 +48,11 @@ function filterByQuery (query, animalsArray) {
     return filteredResults; 
 }
 
+function findById(id, animalsArray) {
+    const result = animalsArray.filter(animal => animal.id === id) [0];
+    return result; 
+}
+
 // route - get requires two arguments 1. describes the route, 2. call back function that will execute every time it is accessed with a GET request 
 app.get('/api/animals', (req, res) => {
     let results = animals; 
@@ -57,6 +62,16 @@ app.get('/api/animals', (req, res) => {
     }
     // res is response to client 
     res.json(results);
+});
+
+// calling for specific animals 
+app.get('/api/animals/:id', (req, res) => {
+    const result = findById(req.params.id, animals);
+    if (result) {
+        res.json(result); 
+    } else {
+        res.send(404); 
+    }
 });
 
 // chain listen() method onto our servers 
