@@ -135,6 +135,42 @@
         "hungry"
       ],
       "id": "13"
+    },
+    {
+      "name": "Loki",
+      "species": "Gorilla ",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "goofy"
+      ],
+      "id": "14"
+    },
+    {
+      "name": "Loki",
+      "species": "Gorilla ",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "goofy"
+      ],
+      "id": "15"
+    },
+    {
+      "name": "Loki",
+      "species": "Gorilla ",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "goofy"
+      ],
+      "id": "16"
+    },
+    {
+      "name": "Loki",
+      "species": "Gorilla ",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "goofy"
+      ],
+      "id": "17"
     }
   ]
 }

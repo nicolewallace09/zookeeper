@@ -12,6 +12,8 @@ const app = express();
 app.use(express.urlencoded ( { extended: true }));
 // parse incoming JSON data
 app.use(express.json());
+// middleware for public files
+app.use(express.static('public')); 
 
 // request data 
 const { animals } = require('./data/animals.json');
@@ -133,6 +135,16 @@ app.post('/api/animals', (req, res) => {
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,'./public/index.html'));
 }); 
+
+// route to animals.html 
+app.get('/animals', (req, res) => {
+    res.sendFile(path.join(__dirname,'./public/animals.html'));
+}); 
+
+// route to zookeepers.html
+app.get('/zookeepers', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/zookeepers'));
+  });
 
 // chain listen() method onto our servers 
 app.listen(PORT, () => {
