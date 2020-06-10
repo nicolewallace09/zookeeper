@@ -17,7 +17,8 @@ The user should clone the repository from GitHub. This application requires Node
 
 ## Usage 
 This application will allow users to view, add, and search animals or zookeepers.<br>
-Please view deployed live Heroku [URL](https://zookeeper-tracker.herokuapp.com/zookeepers)
+Please view deployed live Heroku [URL](https://zookeeper-tracker.herokuapp.com/zookeepers)<br>
+<img src="assets/images/screen.png">
 
 ## License 
 This project is license under MIT
