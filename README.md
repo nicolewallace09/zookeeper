@@ -27,7 +27,7 @@ This project is license under MIT
 Contributors should read the installation section. 
 
 ## Tests
-This application uses Jest. Please install Jest by running npm install jest. 
+This application uses Jest. Please install Jest by running `npm install jest` and run in the terminal by running `npm test `. 
 
 ## Questions
 If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.
