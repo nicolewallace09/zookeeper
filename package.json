@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/nicolewallace09/zookeeper#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jest": "^26.0.1"
   }
 }
